@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update GitHub Activity
-        uses: Axello0/activity-log_PLN1
+        uses: Axello0/activity-log_PLN1@BNR5
         with:
           GITHUB_USERNAME: "Axello0"
           GITHUB_TOKEN: ${{ secrets.ACTIONSSECRETRDDT2024 }} # Ensure this matches the secret name in repository settings
